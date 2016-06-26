@@ -1,8 +1,24 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
+    </style>
+
+    <style name="_label">
+        <item name="android:textColor">@color/text_label</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+
+    <style name="_botao">
+        <item name="android:background">@drawable/bg_button</item>
+        <item name="android:textColor">@color/lb_botao</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:layout_marginBottom">@dimen/margin_botao</item>
     </style>
 
 </resources>
