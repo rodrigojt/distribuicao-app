@@ -4,20 +4,28 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
-    android:orientation="vertical"
+    android:orientation="horizontal"
     android:background="@color/bg_background"
     android:gravity="center"
     tools:context="com.dmf.distribuicaoapp.LoginActivity">
 
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingRight="10dp">
         <ImageView
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:padding="10dp"
             android:src="@drawable/logoali"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
 
         <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
@@ -27,7 +35,7 @@
                 android:id="@+id/etEmail"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint=""
+                android:hint="@string/et_mail"
                 android:inputType="textEmailAddress" />
 
         </android.support.design.widget.TextInputLayout>
@@ -61,19 +69,24 @@
             android:textOff="N"
             android:textOn="S" />
 
-        <Button
-            android:layout_width="fill_parent"
+        <LinearLayout
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="realizarLogin"
-            android:text="@string/bt_logar"
-            style="@style/_botao" />
+            android:orientation="horizontal">
 
-        <Button
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:onClick="realizarCadastro"
-            android:text="@string/bt_registrar"
-            style="@style/_botao" />
+            <Button
+                android:text="@string/bt_logar"
+                android:layout_marginRight="5dp"
+                android:layout_width="160dp"
+                style="@style/_botao" />
 
-    </ScrollView>
+            <Button
+                android:text="@string/bt_registrar"
+                android:layout_marginLeft="5dp"
+                android:layout_width="160dp"
+                style="@style/_botao" />
+
+        </LinearLayout>
+
+    </LinearLayout>
 </LinearLayout>

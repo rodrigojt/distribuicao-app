@@ -35,7 +35,7 @@
                     android:id="@+id/etEmail"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="E-mail"
+                    android:hint="@string/et_mail"
                     android:inputType="textEmailAddress" />
 
             </android.support.design.widget.TextInputLayout>
@@ -70,14 +70,10 @@
                 android:textOn="S" />
 
             <Button
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
                 android:text="@string/bt_logar"
                 style="@style/_botao" />
 
             <Button
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
                 android:text="@string/bt_registrar"
                 style="@style/_botao" />
 
