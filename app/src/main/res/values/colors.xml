@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="bg_background">#ADD8E6</color>
-    <color name="bg_background1">#009688</color>
+    <color name="bg_background">#FFFFFF</color>
     <color name="text_label">#B6BCBE</color>
     <color name="lb_botao">#FFFFFF</color>
+    <color name="PrimaryColor">#006393</color>
 </resources>

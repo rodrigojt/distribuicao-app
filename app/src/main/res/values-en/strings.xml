@@ -8,4 +8,8 @@
     <string name="bt_registrar">Sign up</string>
     <string name="et_senha">Password</string>
     <string name="et_mail">E-mail</string>
+    <string name="m_digitar">I don\'t know</string>
+    <string name="m_sincronizar">Synchronize</string>
+    <string name="m_verificar">I don\'t know</string>
+    <string name="m_sobre">About</string>
 </resources>

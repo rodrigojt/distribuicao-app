@@ -2,10 +2,20 @@
     <string name="app_name">Distribuição App</string>
 
     <string name="action_settings">Configurações</string>
+
+    <string name="title_activity_main">Main</string>
+    <string name="closeDrawer">Navigation View</string>
+    <string name="openDrawer">Navigation View Closed</string>
+
     <string name="title_activity_login">LoginActivity</string>
     <string name="et_mail">E-mail</string>
     <string name="tv_manter_conectado">Manter conectado</string>
     <string name="bt_logar">Logar</string>
     <string name="bt_registrar">Registrar-se</string>
     <string name="et_senha">Senha</string>
+    <string name="m_digitar">Digitar Encalhe</string>
+    <string name="m_verificar">Analisar Digitação</string>
+    <string name="m_sincronizar">Sincronizar Digitação</string>
+    <string name="m_sobre">Sobre</string>
+    <string name="m_home" translatable="false">Home</string>
 </resources>
